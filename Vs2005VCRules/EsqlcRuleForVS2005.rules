@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioToolFile
+	Name="Esql"
+	Version="8.00"
+	>
+	<Rules>
+		<CustomBuildRule
+			Name="ESQLC"
+			DisplayName="ESQLC"
+			CommandLine=" esql -dcmdl -p [inputs]"
+			Outputs="$(InputName).c"
+			FileExtensions="*.ec"
+			ExecutionDescription="Compile EC file"
+			>
+			<Properties>
+			</Properties>
+		</CustomBuildRule>
+	</Rules>
+</VisualStudioToolFile>
