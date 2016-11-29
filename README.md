@@ -1,5 +1,5 @@
 # Visual Studio IDE for Informix ESQL/C application development
-Copyright (c) 2016 IBM & Sathyanesh Krishnan. All rights reserved.
+Copyright (c) 2016 Sathyanesh Krishnan. All rights reserved.
 
 ## Using Visual Studio IDE for Informix ESQL/C development
 This sample demo provide jump start for Informix ESQL/C application developer by providing a Visual Studio Project setup for their development work. With this project setup, an ESQLC application can be compile, debug and run from the IDE. The project uses custom build setup for preprocessing ESQL/C file (the file with.ec extension). The demo has project file for VS2005 and VS2015.  
